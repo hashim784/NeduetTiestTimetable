@@ -1,0 +1,247 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#tBack {
+
+    /* background-color: black; */
+    background-color: #020d2d;
+
+}
+#top {
+    background-color: #002155;
+}
+
+#top h2 {
+    color: #e3e3e3;
+    font-size: xx-large;
+    margin-right: 2%;
+    margin-left: 3%;
+    font-size: R;
+    margin-top: initia;
+    text-align: center;
+    justify-content: center;
+    display: inline-table;
+    box-shadow: 0px 0 1rem white;
+    display: block;
+}
+
+#top button {
+    color: #000;
+    background: #fff;
+    padding: 9px;
+    border-radius: 41%;
+    border-color: #252929;
+    border-width: 4px;
+    font-style: italic;
+    margin-left: 14%;
+    box-shadow: 0 0 1rem blue;
+}
+
+#top button:hover {
+    color: #f5f5f5;
+    background: #000;
+    border-color: #fff;
+    transition: cubic-bezier(.8, .34, 0, .96);
+    scale: 120%;
+    /* border-radius: inherit; */
+    
+    box-shadow: 0 0 1rem palegoldenrod;
+    
+    
+}
+
+
+.footer {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    background: peru;
+}
+footer{
+    display: flex;
+justify-content: space-between;
+}
+.footer-text p {
+    font-size: 1.6rem;
+}
+.footer-iconTop a {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: #002680;
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1rem blue;
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: black;
+}
+
+#back {
+
+    background-image: url(imgs/as.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#timeTable {
+
+    background-image: url(imgs/timetable.jpg);
+    /* background-size: cover; */
+    background-size: contain;
+    height: 1119px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+#clock {
+    background-image: url(imgs/clock.png);
+    background-repeat: no-repeat;
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+}
+
+#hour,
+#min,
+#sec {
+    background-color: black;
+    position: absolute;
+    border-radius: 66px;
+    transform-origin: bottom;
+
+}
+
+#hour {
+    width: 1.8%;
+    height: 21%;
+    top: 28%;
+    left: 48.85%;
+    opacity: 0.8;
+
+}
+
+#min {
+    width: 1.8%;
+    height: 28%;
+    top: 21%;
+    left: 48.85%;
+    opacity: 0.9;
+}
+
+#sec {
+    width: 1.8%;
+    height: 31%;
+    top: 19%;
+    left: 48.85%;
+    opacity: 0.8;
+    background-color: red;
+
+
+}
+
+footer {
+    color: gray;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+.text{
+    align-items: center;
+display: flex;
+font-size: large;
+}
+@media (max-width: 768px){}
+@media (max-width: 990px){
+    #timeTable{
+    background-position-y: 0px;
+}}
+@media (max-width: 676px){
+
+    #top button{
+        margin-left: 10%;
+    }
+}
+@media (max-width: 492px){
+
+    #top button{
+
+        padding: 7px;
+    }
+
+}
+@media (max-width: 456px){
+    #top h2{
+        margin-left: 1%;
+        margin-right: 0%;
+        font-size: x-large;
+    }
+}
+@media (max-width: 400px){
+    #top h2{
+        display: block;
+    }
+
+}
+@media (max-width: 286px){
+#top button{
+  margin-left: 8%;
+}
+}
+@media (max-width: 704px){
+    #timeTable{
+        height: 849px;
+    }
+}
+@media (max-width: 930px){
+    #timeTable{
+    height: 69vh;
+}}
+@media (max-width: 880px){
+    #timeTable{
+        height: 74vh;
+        background-position-y: 54%;
+      }
+}
+@media (max-width: 782px){
+    #timeTable{
+        height: 73vh;
+        background-position-y: 49%;
+}}
+
+@media (max-width: 698px){
+    #timeTable{
+        height: 76vh;
+font-size: x-large;
+}}
+@media (max-width: 584px){
+    #timeTable{
+        height: 77vh;
+        font-size: x-large;
+}}
+@media (max-width: 466px){
+    #timeTable{
+        height: 67vh;
+  
+}
+
+.text{
+    font-size: large;
+}
+}
